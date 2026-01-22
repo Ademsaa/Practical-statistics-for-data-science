@@ -1,0 +1,6 @@
+Category     Furniture  Office Supplies  Technology   All
+Segment                                                  
+Consumer          1113             3127         951  5191
+Corporate          646             1820         554  3020
+Home Office        362             1079         342  1783
+All               2121             6026        1847  9994
