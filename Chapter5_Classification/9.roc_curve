@@ -1,9 +1,0 @@
-fpr, tpr, thresholds = roc_curve(y, logit_reg.predict_proba(X)[:,0],
-pos_label='default')
-roc_df = pd.DataFrame({'recall': tpr, 'specificity': 1 - fpr})
-ax = roc_df.plot(x='specificity', y='recall', figsize=(4, 4), legend=False)
-ax.set_ylim(0, 1)
-ax.set_xlim(1, 0)
-ax.plot((1, 0), (0, 1))
-ax.set_xlabel('specificity')
-ax.set_ylabel('recall')
